@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 h1,
 h2,
@@ -22,6 +26,9 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5% 20%;
+    border-radius: 4rem;
+    color: rgb(36, 89, 36);
 }
 
 form {
@@ -30,4 +37,31 @@ form {
     flex-direction: column;
     padding: 1%;
     gap: 5px;
+}
+
+input[type="submit"] {
+    background-color: white;
+    padding: 4% 6%;
+    margin: 2%;
+    border: none;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+
+}
+
+input[type="number"] {
+    color: blue;
+    padding: 3% 6%;
+    margin: 2%;
+}
+
+
+
+body {
+    background: linear-gradient(to bottom, rgb(0, 255, 179), rgb(255, 204, 0),  rgb(255, 0, 85));
+    height: 100vh;
 }
