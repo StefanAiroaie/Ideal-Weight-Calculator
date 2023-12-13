@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Ideal Weight Calculator</title>
+</head>
+
+
+<body>
+
+  <header>
+    <h1>We are team 5 - Farhad & Stefan</h1>
+    <h2>We proud to present our Ideal Weight Calculator</h2>
+  </header>
+  <main>
+    <section class="calculator">
+
+      <h3>Ideal Weight Calculator</h3>
+      <form onsubmit="calculate(); return false">
+        <label for="inputnumber">Give your hight</label>
+        <input type="number" id="inputnumber" name="hight">
+
+        <label for="inputage">Give your age</label>
+        <input type="number" id="inputage" name="age">
+
+        <h3>What is yout body build?</h3>
+        <div><label for="wide">Are you wide?</label>
+          <input type="radio" name="wide-narrow" id="wide" checked>
+          <label for="narrow">Are you narrow?</label>
+          <input type="radio" name="wide-narrow" id="narrow">
+        </div>
+        <input type="submit" value="Find out">
+        <h3>Your ideal weight is: <span id="result"></span></h3>
+      </form>
+
+    </section>
+
+  </main>
+
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
